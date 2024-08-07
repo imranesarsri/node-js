@@ -5,7 +5,22 @@ npm init -y
 ```
 
 
+```bash
+npx nodemon index
+```
 
+- [Ejs](https://ejs.co/#docs)
+```bash
+npm install ejs
+```
+
+```bash
+npm install nongoose
+```
+
+```bash
+npm install dotenv
+```
 
 ---
 ```bash
