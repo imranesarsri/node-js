@@ -8,9 +8,9 @@ const connectDB = async () => {
             useNewUrlParser: true,
             useUnifiedTopology: true,
         });
-        console.log('Connected to MongoDB');
+        console.log('CONNECTED TO MONGODB');
     } catch (error) {
-        console.error('Error connecting to MongoDB', error);
+        console.error('ERROR CONNECTING TO MONGODB', error);
         process.exit(1); // Exit process with failure
     }
 };
